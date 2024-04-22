@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:background="#00BCD4"
+>
+
+    <ImageView
+            android:id="@+id/Imagen"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:src="@drawable/tache"
+    />
+
+    <EditText
+            android:id="@+id/editText1"
+            android:hint="Nombre(s)"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="24dp"
+            android:inputType="text"
+            android:drawableLeft="@drawable/boy"
+            android:drawablePadding="12dp"
+            android:minHeight="48dp"/>
+
+    <EditText
+            android:id="@+id/editText2"
+            android:hint="Apellidos"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="24dp"
+            android:inputType="text"
+            android:drawableLeft="@drawable/boy"
+            android:drawablePadding="12dp"
+            android:minHeight="48dp"/>
+
+    <EditText
+            android:id="@+id/editText3"
+            android:hint="Telefono"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="24dp"
+            android:inputType="phone"
+            android:drawableLeft="@drawable/phone"
+            android:drawablePadding="12dp"
+            android:minHeight="48dp"/>
+
+    <EditText
+            android:id="@+id/editText4"
+            android:hint="Correo Electronico"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="24dp"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/boy"
+            android:drawablePadding="12dp"
+            android:minHeight="48dp"/>
+
+    <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/mexicanPink"
+            android:text="@string/accept_button"
+            android:layout_marginTop="48dp"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+
+    />
+
+</LinearLayout>

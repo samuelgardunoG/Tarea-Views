@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">P_Movil_Miercoles</string>
+    <string name="hello_text">Hola, Estas en la Sesión 1 del 2do Parcial!</string>
+    <string name="accept_button">Aceptar</string>
+    <string name="button_clicked">Haz dado click al botón!</string>
+    <string name="add_text">Ingresa un texto</string>
+    <string name="phone">Teléfono</string>
+    <string name="here_text">Aquí el texto del EditText</string>
+</resources>
